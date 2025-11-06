@@ -10,8 +10,8 @@ import { SparklesIcon, HistoryIcon } from './components/icons/Icons';
 import { HistoryPanel } from './components/HistoryPanel';
 import { fileToDataUrl, dataURLtoFile } from './utils/fileUtils';
 import { getAllHistory, addHistoryEntry, deleteHistoryEntry, clearHistory } from './utils/historyDb';
-import { useProjects } from '../nutshel/contexts/ProjectContext';
-import ProjectSelectionModal from '../nutshel/components/ProjectSelectionModal';
+import { useProjects } from '../contexts/ProjectContext';
+import ProjectSelectionModal from '../components/ProjectSelectionModal';
 
 const MAX_HISTORY_ITEMS = 15;
 

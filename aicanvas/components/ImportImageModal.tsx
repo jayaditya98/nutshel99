@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getAllStudioImages } from '../../nutshel/utils/imageStorage';
+import { getAllStudioImages } from '../../utils/imageStorage';
 import { XIcon } from './ui/Icons';
 
 interface RecentImage {

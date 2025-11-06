@@ -15,8 +15,8 @@ import { TextInput } from './components/TextInput';
 import { HistoryPanel } from './components/HistoryPanel';
 import { serializableToState, stateToSerializable } from './utils/historyUtils';
 import { addHistoryItem, getAllHistoryItems, clearHistoryDB } from './utils/db';
-import { useProjects } from '../nutshel/contexts/ProjectContext';
-import ProjectSelectionModal from '../nutshel/components/ProjectSelectionModal';
+import { useProjects } from '../contexts/ProjectContext';
+import ProjectSelectionModal from '../components/ProjectSelectionModal';
 
 const initialCompositionState: CompositionState = {
   subjects: [],

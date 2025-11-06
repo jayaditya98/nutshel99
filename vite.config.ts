@@ -17,11 +17,11 @@ export default defineConfig(({ mode }) => {
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
-          'productphotoshoots': path.resolve(__dirname, '../productphotoshoots'),
-          'modelshoots': path.resolve(__dirname, '../modelshoots'),
-          'cloneshoots': path.resolve(__dirname, '../cloneshoots'),
-          'imagecomposer': path.resolve(__dirname, '../imagecomposer'),
-          'aicanvas': path.resolve(__dirname, '../aicanvas'),
+          'productphotoshoots': path.resolve(__dirname, './productphotoshoots'),
+          'modelshoots': path.resolve(__dirname, './modelshoots'),
+          'cloneshoots': path.resolve(__dirname, './cloneshoots'),
+          'imagecomposer': path.resolve(__dirname, './imagecomposer'),
+          'aicanvas': path.resolve(__dirname, './aicanvas'),
         },
         dedupe: ['react', 'react-dom'],
       },

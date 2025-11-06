@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { useProjects } from '../../nutshel/contexts/ProjectContext';
+import { useProjects } from '../../contexts/ProjectContext';
 import { ChevronDownIcon } from './ui/Icons';
 
 interface SaveDesignModalProps {

@@ -4,7 +4,7 @@ import { useCanvasStore } from '../store/canvasStore';
 import { UndoIcon, RedoIcon, FontIcon, CanvasSizeIcon, ChevronDownIcon, MenuIcon, FilePlusIcon, FolderIcon, CopyIcon, EditIcon, SaveIcon, ChevronLeftIcon } from './ui/Icons';
 import ResizeModal from './ResizeModal';
 import { Layer, LayerType, TextLayerProps, ImageLayerProps, ShapeLayerProps, GroupLayerProps } from '../types';
-import { useProjects } from '../../nutshel/contexts/ProjectContext';
+import { useProjects } from '../../contexts/ProjectContext';
 import SaveDesignModal from './SaveDesignModal';
 
 

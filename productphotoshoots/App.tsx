@@ -14,8 +14,8 @@ import { fileToBase64, addHistoryItem, getAllHistoryItems, deleteHistoryItem, cl
 import { Toast } from './components/Toast';
 import { HistoryPanel } from './components/HistoryPanel';
 import { ShareModal } from './components/ShareModal';
-import { useProjects } from '../nutshel/contexts/ProjectContext';
-import ProjectSelectionModal from '../nutshel/components/ProjectSelectionModal';
+import { useProjects } from '../contexts/ProjectContext';
+import ProjectSelectionModal from '../components/ProjectSelectionModal';
 
 const DEFAULT_ANGLES = [
   'front view'

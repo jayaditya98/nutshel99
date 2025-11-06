@@ -14,8 +14,8 @@ import type { Pose, GeneratedImage, Gender, Model, HistoryEntry, EncodedImage } 
 import { MAX_POSES, MAX_ACCESSORIES } from './constants';
 import { Button } from './components/ui/Button';
 import { Tooltip } from './components/ui/Tooltip';
-import { useProjects } from '../nutshel/contexts/ProjectContext';
-import ProjectSelectionModal from '../nutshel/components/ProjectSelectionModal';
+import { useProjects } from '../contexts/ProjectContext';
+import ProjectSelectionModal from '../components/ProjectSelectionModal';
 
 const MAX_HISTORY_ITEMS = 20;
 
