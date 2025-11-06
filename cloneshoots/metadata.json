@@ -1,0 +1,5 @@
+{
+  "name": "PenUltimate: Clone shoots",
+  "description": "An intelligent web application that combines two images—an original and a reference—to generate a new, stylized output. Users can transfer style, pose, or both using the Gemini API.",
+  "requestFramePermissions": []
+}

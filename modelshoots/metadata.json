@@ -1,0 +1,5 @@
+{
+  "name": "PenUltimate: Model Shoots",
+  "description": "An application that transforms a single user-uploaded image into a series of professional, studio-quality editorial photos using AI. Users can select poses, lighting, and camera angles to customize their virtual photoshoot.",
+  "requestFramePermissions": []
+}

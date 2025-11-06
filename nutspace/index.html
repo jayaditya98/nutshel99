@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutspace - Creative Workspace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'nutshel-gray-dark': '#1A1A1A',
+              'nutshel-gray': '#242424',
+              'nutshel-accent': '#FBBF24',
+              'white-87': 'rgba(255, 255, 255, 0.87)',
+              'white-60': 'rgba(255, 255, 255, 0.60)',
+            },
+            fontFamily: {
+              // The prompt specified 'TASA Orbiter', but it's not on Google Fonts.
+              // Using 'Inter' as a modern, clean substitute.
+              sans: ['Inter', 'sans-serif'],
+              tasa: ['"TASA Orbiter"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #1A1A1A;
+        color: rgba(255, 255, 255, 0.87);
+        font-family: 'Inter', sans-serif;
+      }
+      .scroll-fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      }
+      .scroll-fade-in.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://esm.run/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

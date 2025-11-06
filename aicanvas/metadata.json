@@ -1,0 +1,5 @@
+{
+  "name": "AI Canvas v3",
+  "description": "A modern, minimalist image editing canvas inspired by Canva. Users can add and manipulate layers of text, images, and shapes, upload custom images and fonts, and export their design as a PNG file.",
+  "requestFramePermissions": []
+}

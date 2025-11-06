@@ -1,0 +1,5 @@
+{
+  "name": "PenUltimate: Image Composer",
+  "description": "An advanced AI-powered tool to compose stunning images by merging multiple subjects with customizable backgrounds, accessories, lighting, and framing using the Gemini API.",
+  "requestFramePermissions": []
+}
